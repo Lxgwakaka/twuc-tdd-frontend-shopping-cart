@@ -17,6 +17,9 @@ describe('Shopping Cart', () => {
         ['商品名', '单价', '数量'].forEach((txt, index) => {
             expect(thElement.item(index)).toHaveTextContent(txt);
         });
+
+        // const product = thElement[0];
+        // expect(product).toEqual('商品名');
     });
 
 
